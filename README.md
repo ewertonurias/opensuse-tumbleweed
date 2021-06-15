@@ -1,5 +1,7 @@
 # opensuse-tumbleweed
+
 My personal script focused on post install openSUSE Tumbleweed KDE Plasma.
+
 zypper without -y (For security, you will always have to confirm when asked).
 
 # Add Repositories
