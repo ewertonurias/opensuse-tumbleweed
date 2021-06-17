@@ -2,7 +2,7 @@
 
 My personal script focused on post install openSUSE Tumbleweed KDE Plasma.
 
-zypper without -y (For security, you will always have to confirm when asked).
+For security reasons, zypper doesn't have -y argument, it's necessary to confirm everything when asked.
 
 # Add Repositories
 - Packman
@@ -34,8 +34,9 @@ You can change this later with the command: `sudo hostnamectl set-hostname new_n
 - krita
 - kcolorchooser
 - kdenlive
-- sweeper
+- p7zip-full
 - partitionmanager
+- unrar
 - inkscape
 - telegram-desktop
 - qbittorrent
@@ -43,8 +44,8 @@ You can change this later with the command: `sudo hostnamectl set-hostname new_n
 - ristretto
 - feh
 - youtube-dl
-- unrar
-- p7zip-full
+- sweeper
+- vokoscreenNG
 
 # Packages that will be uninstalled
 None.
