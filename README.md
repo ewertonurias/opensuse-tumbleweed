@@ -15,7 +15,7 @@ Yes.
 # Will nvidia-driver be offered?
 Yes.
 
-# Will Microsoft TrueType Fonts will be offered?
+# Will Microsoft TrueType Fonts be offered?
 Yes.
 
 # Will Feral GameMode support be offered?
