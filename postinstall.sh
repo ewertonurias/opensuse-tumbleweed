@@ -30,7 +30,7 @@ printf "\nEtapa 6/10: Instalando emuladores... \n"
 sudo zypper install dolphin-emu pcsx2 retroarch
 
 # Install GameMode support
-printf "\nEtapa 7/10: Instalando emuladores... \n"
+printf "\nEtapa 7/10: Instalando Feral GameMode... \n"
 sudo zypper install libgamemodeauto0 libgamemodeauto0-32bit libgamemode0-32bit 
 
 # Install TrueType Fonts Microsoft
