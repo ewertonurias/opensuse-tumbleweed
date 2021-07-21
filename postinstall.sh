@@ -16,7 +16,7 @@ printf "\nEtapa 3/10: Instalando o driver proprietário NVIDIA... \n"
 sudo zypper addrepo --refresh https://download.nvidia.com/opensuse/tumbleweed NVIDIA
 sudo zypper ref && sudo zypper install x11-video-nvidiaG05
 
-# Add Emulators repository and install PCSX2
+# Add Emulators repository
 printf "\nEtapa 4/10: Adicionando repositório de emuladores... \n"
 sudo zypper addrepo http://download.opensuse.org/repositories/Emulators/openSUSE_Tumbleweed/Emulators.repo
 sudo zypper ref
