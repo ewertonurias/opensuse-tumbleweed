@@ -31,7 +31,7 @@ sudo zypper install dolphin-emu pcsx2 retroarch
 
 # Install GameMode support
 printf "\nEtapa 7/10: Instalando Feral GameMode... \n"
-sudo zypper install libgamemodeauto0 libgamemodeauto0-32bit libgamemode0-32bit 
+sudo zypper install libgamemode{auto0,auto0-32bit,0-32bit}
 
 # Install TrueType Fonts Microsoft
 printf "\nEtapa 8/10: Instalando fontes TrueType da Microsoft... \n"
