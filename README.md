@@ -9,13 +9,16 @@ For security reasons, zypper doesn't have -y argument, it's necessary to confirm
 - NVIDIA
 - Emulators
 
-# Codecs will be installed?
+# Will codecs be installed?
 Yes.
 
-# Will be offered nvidia-driver?
+# Will nvidia-driver be offered?
 Yes.
 
 # Will Microsoft TrueType Fonts will be offered?
+Yes.
+
+# Will Feral GameMode support be offered?
 Yes.
 
 # Hostname will be renamed to @opensuse-desktop
@@ -27,7 +30,9 @@ You can change this later with the command: `sudo hostnamectl set-hostname new_n
 - steam
 - discord
 - obs-studio
+- dolphin-emu
 - pcsx2
+- retroarch
 
 # Other packages that will be installed
 - kget
